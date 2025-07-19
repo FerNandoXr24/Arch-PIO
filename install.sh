@@ -1,16 +1,5 @@
 #!/bin/bash
 # -*- ENCODING: UTF-8 -*-
-
-#instalacion del escritorio
-    sudo pacman -Sy xorg-server xfce4 xfce4-goodies --noconfirm
-#lightdm
-    sudo pacman -Sy lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm
-#libreoffice
-    sudo pacman -Sy libreoffice-fresh-es --noconfirm
-#kde
-    sudo pacman -Sy dolphin kio-admin okular kate --noconfirm
-#vlc
-    sudo pacman -S vlc vlc-plugin-ffmpeg --noconfirm
 #yay
     cd /tmp
     mkdir install
@@ -20,17 +9,29 @@
     makepkg -sir --noconfirm
     cd /tmp
     sudo rm -d -f -r install
+#instalacion del escritorio
+    sudo pacman -Sy xfce4 xfce4-goodies xorg --noconfirm
+#lightdm
+    sudo pacman -Sy lightdm lightdm-gtk-greeter --noconfirm
+    sudo systemctl enable lightdm
+#libreoffice
+    sudo pacman -Sy libreoffice-fresh-es --noconfirm
+#kde
+    sudo pacman -Sy dolphin kio-admin okular kate --noconfirm
+#vlc
+    sudo pacman -S vlc vlc-plugin-ffmpeg --noconfirm
 #librewolf
     yay -Sy librewolf-bin --noconfirm
 #pamac
     yay -Sy libpamac-flatpak --noconfirm
     yay -Sy pamac-flatpak --noconfirm
 #kernel
-    sudo pacman -Sy linux-zen
-    sudo pacman -R linux
+    sudo pacman -Sy linux-zen --noconfirm
+    sudo pacman -R linux --noconfirm
     sudo grub-mkconfig -o /boot/grub/grub.cfg
 #internet
     sudo pacman -Sy networkmanager network-manager-applet usb_modeswitch --noconfirm
+    sudo pacman -S network-manager-applet --noconfirm
     sudo systemctl enable NetworkManager.service
     sudo systemctl enable ModemManager.service
 #bluetooth#
