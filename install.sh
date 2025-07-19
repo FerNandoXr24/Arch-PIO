@@ -9,6 +9,8 @@
     makepkg -sir --noconfirm
     cd /tmp
     sudo rm -d -f -r install
+#htop & fastfetch
+    sudo pacman -Sy htop fastfetch --noconfirm
 #instalacion del escritorio
     sudo pacman -Sy xfce4 xfce4-goodies xorg --noconfirm
 #lightdm
@@ -25,6 +27,8 @@
 #pamac
     yay -Sy libpamac-flatpak --noconfirm
     yay -Sy pamac-flatpak --noconfirm
+#konsole
+    sudo pacman -Sy konsole --noconfirm
 #kernel
     sudo pacman -Sy linux-zen --noconfirm
     sudo pacman -R linux --noconfirm
@@ -42,5 +46,10 @@
     yay -Sc --noconfirm
 #servicios
     systemctl enable lightdm
+#actualizar & limpiar
+    sudo pacman -Syyu --noconfirm
+    yay -Syyu --noconfirm
+    sudo pacman -Scc --noconfirm
+    yay -Scc --noconfirm
 #reinicio
     sudo reboot
