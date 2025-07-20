@@ -28,7 +28,7 @@ si quieres apoyar este proyecto o apoyarme te agradeceria que te suscribieras a 
 ## Pasos para instalar arch (instalacion basica y facil)
 _{este no es un tutorial para instalar arch, esta seccion esta hecha a memoria, de todos modos dejare un tutorial en youtube de este mismo script}_
 
-- Visitar la pagina de arch linux y descargar la iso
+- Visitar la pagina de [arch linux](<https://archlinux.org/download/>) y descargar la iso
 - Grabar la iso en una usb (puedes usar ventoy para grabar ventoy en la usb y solo arrastrar el iso de arch dentro de la usb)
 - Apagar el pc en el que se va a instalar (procurar haver una copia de seguridad de todos los archivos importantes, como documentos, imagenes, etc, esto debido a que se eliminara todo el disco)
 - Entrar en la bios del pc, esto con "F2", "SUPR"/"DEL" o "ESC" si no te funciona ninguna de estas teclas busca un tutorial con el modelo de tu pc o de la placa madre(motherboard)
