@@ -8,8 +8,8 @@ Este script basicamente instala un escritorio ligero, un gestor de sesiones y to
 
 
 ## Tutorial en youtube
-
-(todavia no lo subo XD)
+[
+Aqui el video, perdon la mala edicion, estoy aprendiendo a usar el programa de edicion](https://www.youtube.com/watch?v=3U-o9JziJm0)
 si quieres apoyar este proyecto o apoyarme te agradeceria que te suscribieras a mi canal de youtube
 
 ## Paquetes a instalar
