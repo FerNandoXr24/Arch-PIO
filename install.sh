@@ -31,6 +31,14 @@
     sudo pacman -Sy konsole --noconfirm
 #ark
     sudo pacman -Sy ark --noconfirm
+#web-apps
+    yay -Sy webapp-manager --noconfirm
+#spotify
+    sudo pacman -Sy spotify-launcher
+#fuentes
+    cd
+    mkdir ~/.fonts
+    yay -Sy ttf-ms-win11-auto --noconfirm
 #kernel
     sudo pacman -Sy linux-zen --noconfirm
     sudo pacman -R linux --noconfirm
