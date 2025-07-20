@@ -19,7 +19,7 @@
 #libreoffice
     sudo pacman -Sy libreoffice-fresh-es --noconfirm
 #kde
-    sudo pacman -Sy dolphin kio-admin okular kate --noconfirm
+    sudo pacman -Sy okular kate --noconfirm
 #vlc
     sudo pacman -S vlc vlc-plugin-ffmpeg --noconfirm
 #librewolf
@@ -29,6 +29,8 @@
     yay -Sy pamac-flatpak --noconfirm
 #konsole
     sudo pacman -Sy konsole --noconfirm
+#ark
+    sudo pacman -Sy ark --noconfirm
 #kernel
     sudo pacman -Sy linux-zen --noconfirm
     sudo pacman -R linux --noconfirm
@@ -39,7 +41,7 @@
     sudo systemctl enable NetworkManager.service
     sudo systemctl enable ModemManager.service
 #bluetooth#
-    sudo pacman -Sy bluez bluez-utils bluedevil --noconfirm
+    sudo pacman -Sy bluez bluez-utils bluedevil blueberry --noconfirm
     sudo systemctl enable bluetooth.service
 #limpiar
     sudo pacman -Sc --noconfirm
