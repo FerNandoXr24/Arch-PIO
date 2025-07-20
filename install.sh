@@ -64,9 +64,11 @@
 #web-apps
     clear
     yay -Sy webapp-manager --noconfirm
+#audio
+    sudo pacman -Sy pavucontrol --noconfirm
 #spotify
     clear
-    sudo pacman -Sy spotify-launcher
+    sudo pacman -Sy spotify-launcher --noconfirm
 #fuentes
     clear
     cd
