@@ -95,4 +95,4 @@ bash install.sh
 ```
 - Luego tendras que poner tu contraseña cuando te la pida, al inicio de te la pedira unas 3 veces y al final una vez
 - Tu pc se va a reiniciar despues de la instalacion y estara todo listo
-- Luego tu tendras que encargarte de la personalizacion (en el video que comente anteriormente explico como personalizarlo)
+- Luego tu tendras que encargarte de la personalizacion (en el futuro hare un tutorial)
