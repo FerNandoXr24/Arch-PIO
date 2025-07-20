@@ -1,6 +1,12 @@
 <h1 align="center">  SCRIPT POST INSTALACION OFIMATICA ARCH LINUX</h1>
 Este script basicamente instala un escritorio ligero, un gestor de sesiones y todas las heramientas necesaria(y algunas extras) para uso de ofimatica.
 
+## Importante
+- 2GB de ram son suficientes para usar las herramientas y navegar en internet pero no para ver contenido en youtube/spotify
+- 4GB de ram son suficientes para ver contenido en youtube/spotify
+- Las pruebas se hicieron en una maquina virtual con 2 nucleos
+
+
 ## Tutorial en youtube
 
 (todavia no lo subo XD)
